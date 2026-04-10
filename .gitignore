@@ -1,1 +1,23 @@
+# Secrets & OAuth
 .env
+credentials.json
+token.json
+
+# Database (contains raw email content)
+*.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temp/debug files
+check_db.py
+rag_fixed.py
+
+# OS files
+Thumbs.db
+.DS_Store
