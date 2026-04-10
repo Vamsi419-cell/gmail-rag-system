@@ -21,3 +21,6 @@ rag_fixed.py
 # OS files
 Thumbs.db
 .DS_Store
+
+# Data files
+data/
