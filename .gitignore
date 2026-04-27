@@ -3,8 +3,14 @@
 credentials.json
 token.json
 
-# Database (contains raw email content)
+# Database & generated data
 *.db
+data/rag_database.db
+data/last_sync.json
+data/token.json
+data/chunks.json
+data/metadata.json
+data/models/
 
 # Python
 __pycache__/
@@ -17,7 +23,11 @@ __pycache__/
 # Temp/debug files
 check_db.py
 rag_fixed.py
+import_trace.txt
 
 # OS files
 Thumbs.db
 .DS_Store
+
+# Virtual environments
+venv/

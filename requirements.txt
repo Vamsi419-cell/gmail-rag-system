@@ -5,3 +5,6 @@ sentence-transformers
 faiss-cpu
 transformers
 torch
+groq
+streamlit
+python-dotenv
