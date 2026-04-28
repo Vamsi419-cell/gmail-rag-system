@@ -1,0 +1,43 @@
+=======================================================
+  Gmail RAG System — Evaluation Report
+  2026-04-29 00:25:15
+  Data Source: Real trained FAISS index
+=======================================================
+
+SYSTEM
+  Embedding Model : all-MiniLM-L6-v2 (384-dim)
+  Cross-Encoder   : ms-marco-MiniLM-L-6-v2
+  Vector Index    : FAISS IndexFlatIP (172 vectors)
+  LLM             : Groq - LLaMA 3.3 70B
+  Index Size      : 258.0 KB
+
+RETRIEVAL METRICS
+       MRR : 0.0851
+       P@1 : 0.0400
+       P@3 : 0.0567
+       P@5 : 0.0460
+      P@10 : 0.0310
+       R@1 : 0.0176
+       R@3 : 0.0969
+       R@5 : 0.1110
+      R@10 : 0.1478
+    NDCG@1 : 0.0400
+    NDCG@3 : 0.0800
+    NDCG@5 : 0.0851
+   NDCG@10 : 0.0949
+
+EMBEDDING METRICS
+  Cosine Sim Mean  : 0.2793
+  Cosine Sim Std   : 0.1837
+  Cosine Sim Range : [-0.0787, 0.9941]
+  95% Var Dims     : 80
+
+GENERATION METRICS
+  BLEU             : 0.1772
+  ROUGE-1          : 0.3425
+  ROUGE-L          : 0.2903
+
+LATENCY METRICS
+  Search Mean      : 0.015 ms
+  Search P95       : 0.033 ms
+  Search Range     : [0.008, 0.103] ms

@@ -1,0 +1,53 @@
+{
+  "retrieval": {
+    "MRR": 0.0851,
+    "P@1": 0.04,
+    "R@1": 0.0176,
+    "NDCG@1": 0.04,
+    "P@3": 0.0567,
+    "R@3": 0.0969,
+    "NDCG@3": 0.08,
+    "P@5": 0.046,
+    "R@5": 0.111,
+    "NDCG@5": 0.0851,
+    "P@10": 0.031,
+    "R@10": 0.1478,
+    "NDCG@10": 0.0949
+  },
+  "generation": {
+    "BLEU": 0.1772,
+    "ROUGE-1": 0.3425,
+    "ROUGE-L": 0.2903,
+    "n_samples": 99
+  },
+  "embeddings": {
+    "n_vectors": 172,
+    "dimension": 384,
+    "similarity": {
+      "mean": 0.2793,
+      "std": 0.1837,
+      "min": -0.0787,
+      "max": 0.9941
+    },
+    "dims_for_95pct_variance": 80,
+    "norm_mean": 1.0,
+    "top5_variance": [
+      0.1381,
+      0.0824,
+      0.06,
+      0.0493,
+      0.0376
+    ]
+  },
+  "latency": {
+    "mean_ms": 0.015,
+    "p95_ms": 0.033,
+    "min_ms": 0.008,
+    "max_ms": 0.103,
+    "n_queries": 20
+  },
+  "system": {
+    "vectors": 172,
+    "dim": 384
+  }
+}
