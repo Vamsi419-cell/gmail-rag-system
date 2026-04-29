@@ -21,7 +21,7 @@ from config import DB_PATH, DATA_DIR, get_user_paths
 # CONFIG
 # =========================
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
-DEFAULT_FETCH_LIMIT = 100
+DEFAULT_FETCH_LIMIT = 500
 
 
 # =========================
