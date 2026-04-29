@@ -1,6 +1,7 @@
 # Secrets & OAuth
 .env
 credentials.json
+credentials1.json
 token.json
 
 # Database & generated data
@@ -10,7 +11,13 @@ data/last_sync.json
 data/token.json
 data/chunks.json
 data/metadata.json
+data/user_*_chunks.json
+data/user_*_metadata.json
+data/user_*_sync.json
 data/models/
+
+# FAISS indexes
+models/user_*_index.faiss
 
 # Python
 __pycache__/
